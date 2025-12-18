@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cert-001",
+    "name": "Production API Certificate",
+    "domain": "api.acme.com",
+    "issuer": "DigiCert",
+    "status": "active",
+    "expiryDate": "2025-08-15",
+    "createdAt": "2024-08-15",
+    "algorithm": "RSA-2048",
+    "serialNumber": "0A:1B:2C:3D:4E:5F:6G:7H"
+  },
+  {
+    "id": "cert-002",
+    "name": "Staging Wildcard Certificate",
+    "domain": "*.staging.acme.com",
+    "issuer": "Let's Encrypt",
+    "status": "expiring",
+    "expiryDate": "2025-01-20",
+    "createdAt": "2024-10-20",
+    "algorithm": "ECDSA-P256",
+    "serialNumber": "1B:2C:3D:4E:5F:6G:7H:8I"
+  },
+  {
+    "id": "cert-003",
+    "name": "Legacy System Certificate",
+    "domain": "legacy.acme.com",
+    "issuer": "Comodo",
+    "status": "expired",
+    "expiryDate": "2024-11-30",
+    "createdAt": "2023-11-30",
+    "algorithm": "RSA-4096",
+    "serialNumber": "2C:3D:4E:5F:6G:7H:8I:9J"
+  },
+  {
+    "id": "cert-004",
+    "name": "CDN Edge Certificate",
+    "domain": "cdn.acme.com",
+    "issuer": "Cloudflare",
+    "status": "active",
+    "expiryDate": "2026-03-10",
+    "createdAt": "2024-03-10",
+    "algorithm": "ECDSA-P384",
+    "serialNumber": "3D:4E:5F:6G:7H:8I:9J:0K"
+  },
+  {
+    "id": "cert-005",
+    "name": "Internal Services Certificate",
+    "domain": "internal.acme.com",
+    "issuer": "DigiCert",
+    "status": "active",
+    "expiryDate": "2025-12-01",
+    "createdAt": "2024-12-01",
+    "algorithm": "RSA-2048",
+    "serialNumber": "4E:5F:6G:7H:8I:9J:0K:1L"
+  },
+  {
+    "id": "cert-006",
+    "name": "Customer Portal Certificate",
+    "domain": "portal.acme.com",
+    "issuer": "GlobalSign",
+    "status": "expiring",
+    "expiryDate": "2025-01-05",
+    "createdAt": "2024-01-05",
+    "algorithm": "RSA-2048",
+    "serialNumber": "5F:6G:7H:8I:9J:0K:1L:2M"
+  },
+  {
+    "id": "cert-007",
+    "name": "Mobile API Certificate",
+    "domain": "mobile-api.acme.com",
+    "issuer": "DigiCert",
+    "status": "active",
+    "expiryDate": "2025-09-20",
+    "createdAt": "2024-09-20",
+    "algorithm": "ECDSA-P256",
+    "serialNumber": "6G:7H:8I:9J:0K:1L:2M:3N"
+  },
+  {
+    "id": "cert-008",
+    "name": "Analytics Dashboard Certificate",
+    "domain": "analytics.acme.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "expiryDate": "2025-06-15",
+    "createdAt": "2024-06-15",
+    "algorithm": "RSA-2048",
+    "serialNumber": "7H:8I:9J:0K:1L:2M:3N:4O"
+  }
+]
