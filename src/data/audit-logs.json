@@ -1,0 +1,155 @@
+[
+  {
+    "id": "log-001",
+    "timestamp": "2024-12-17T15:30:45Z",
+    "actor": "alice.johnson@acme.com",
+    "actionType": "certificate.renew",
+    "targetResource": "cert-001",
+    "metadata": {
+      "previousExpiry": "2025-02-15",
+      "newExpiry": "2025-08-15",
+      "issuer": "DigiCert",
+      "ipAddress": "192.168.1.105"
+    }
+  },
+  {
+    "id": "log-002",
+    "timestamp": "2024-12-17T14:22:10Z",
+    "actor": "bob.smith@acme.com",
+    "actionType": "ssh_key.create",
+    "targetResource": "ssh-002",
+    "metadata": {
+      "keyType": "rsa-4096",
+      "fingerprint": "SHA256:PLMUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8nThbg",
+      "ipAddress": "10.0.0.45"
+    }
+  },
+  {
+    "id": "log-003",
+    "timestamp": "2024-12-17T12:15:33Z",
+    "actor": "system",
+    "actionType": "certificate.expiry_warning",
+    "targetResource": "cert-002",
+    "metadata": {
+      "daysUntilExpiry": 33,
+      "domain": "*.staging.acme.com",
+      "notificationSent": true
+    }
+  },
+  {
+    "id": "log-004",
+    "timestamp": "2024-12-17T10:05:00Z",
+    "actor": "carol.williams@acme.com",
+    "actionType": "code_signing.sign",
+    "targetResource": "cs-001",
+    "metadata": {
+      "artifact": "acme-app-v2.4.1.tar.gz",
+      "algorithm": "RSA-4096",
+      "signatureType": "detached",
+      "ipAddress": "172.16.0.88"
+    }
+  },
+  {
+    "id": "log-005",
+    "timestamp": "2024-12-17T09:45:22Z",
+    "actor": "david.brown@acme.com",
+    "actionType": "ssh_key.revoke",
+    "targetResource": "ssh-007",
+    "metadata": {
+      "reason": "Employee departure",
+      "revokedBy": "admin@acme.com",
+      "ipAddress": "192.168.1.1"
+    }
+  },
+  {
+    "id": "log-006",
+    "timestamp": "2024-12-16T18:30:00Z",
+    "actor": "eva.martinez@acme.com",
+    "actionType": "certificate.download",
+    "targetResource": "cert-004",
+    "metadata": {
+      "format": "PEM",
+      "includeChain": true,
+      "ipAddress": "10.0.0.112"
+    }
+  },
+  {
+    "id": "log-007",
+    "timestamp": "2024-12-16T16:20:15Z",
+    "actor": "frank.lee@acme.com",
+    "actionType": "code_signing.create",
+    "targetResource": "cs-006",
+    "metadata": {
+      "algorithm": "ECDSA-P256",
+      "protectionLevel": "software",
+      "purpose": "Internal Tools",
+      "ipAddress": "172.16.0.50"
+    }
+  },
+  {
+    "id": "log-008",
+    "timestamp": "2024-12-16T14:10:45Z",
+    "actor": "system",
+    "actionType": "ssh_key.access",
+    "targetResource": "ssh-001",
+    "metadata": {
+      "server": "prod-web-01",
+      "sessionDuration": "00:45:12",
+      "commandsExecuted": 23,
+      "ipAddress": "192.168.1.105"
+    }
+  },
+  {
+    "id": "log-009",
+    "timestamp": "2024-12-16T11:55:30Z",
+    "actor": "alice.johnson@acme.com",
+    "actionType": "certificate.update",
+    "targetResource": "cert-005",
+    "metadata": {
+      "field": "name",
+      "oldValue": "Internal Cert",
+      "newValue": "Internal Services Certificate",
+      "ipAddress": "192.168.1.105"
+    }
+  },
+  {
+    "id": "log-010",
+    "timestamp": "2024-12-16T09:30:00Z",
+    "actor": "system",
+    "actionType": "certificate.expired",
+    "targetResource": "cert-003",
+    "metadata": {
+      "domain": "legacy.acme.com",
+      "expiredAt": "2024-11-30",
+      "notificationSent": true,
+      "autoRenewalAttempted": false
+    }
+  },
+  {
+    "id": "log-011",
+    "timestamp": "2024-12-15T20:15:00Z",
+    "actor": "bob.smith@acme.com",
+    "actionType": "ssh_key.update",
+    "targetResource": "ssh-002",
+    "metadata": {
+      "field": "trustLevel",
+      "oldValue": "low",
+      "newValue": "medium",
+      "approvedBy": "admin@acme.com",
+      "ipAddress": "10.0.0.45"
+    }
+  },
+  {
+    "id": "log-012",
+    "timestamp": "2024-12-15T15:40:22Z",
+    "actor": "carol.williams@acme.com",
+    "actionType": "code_signing.rotate",
+    "targetResource": "cs-005",
+    "metadata": {
+      "previousKeyId": "cs-005-old",
+      "newAlgorithm": "RSA-4096",
+      "reason": "Scheduled rotation",
+      "ipAddress": "172.16.0.88"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cs-001",
+    "alias": "Production Release Key",
+    "algorithm": "RSA-4096",
+    "protectionLevel": "hsm",
+    "createdAt": "2024-01-15",
+    "lastUsed": "2024-12-17T10:00:00Z",
+    "usageCount": 245
+  },
+  {
+    "id": "cs-002",
+    "alias": "Development Signing Key",
+    "algorithm": "ECDSA-P256",
+    "protectionLevel": "software",
+    "createdAt": "2024-03-20",
+    "lastUsed": "2024-12-16T15:30:00Z",
+    "usageCount": 1823
+  },
+  {
+    "id": "cs-003",
+    "alias": "CI/CD Pipeline Key",
+    "algorithm": "RSA-2048",
+    "protectionLevel": "software",
+    "createdAt": "2024-06-10",
+    "lastUsed": "2024-12-17T08:45:00Z",
+    "usageCount": 5621
+  },
+  {
+    "id": "cs-004",
+    "alias": "Mobile App Signing Key",
+    "algorithm": "ECDSA-P384",
+    "protectionLevel": "hsm",
+    "createdAt": "2024-02-28",
+    "lastUsed": "2024-12-15T12:00:00Z",
+    "usageCount": 89
+  },
+  {
+    "id": "cs-005",
+    "alias": "Library Distribution Key",
+    "algorithm": "RSA-4096",
+    "protectionLevel": "hsm",
+    "createdAt": "2023-11-05",
+    "lastUsed": "2024-12-14T09:20:00Z",
+    "usageCount": 412
+  },
+  {
+    "id": "cs-006",
+    "alias": "Internal Tools Key",
+    "algorithm": "ECDSA-P256",
+    "protectionLevel": "software",
+    "createdAt": "2024-08-12",
+    "lastUsed": "2024-12-17T11:15:00Z",
+    "usageCount": 2156
+  }
+]

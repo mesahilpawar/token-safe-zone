@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ssh-001",
+    "owner": "Alice Johnson",
+    "fingerprint": "SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8",
+    "lastUsed": "2024-12-17T14:30:00Z",
+    "trustLevel": "high",
+    "keyType": "ed25519",
+    "servers": ["prod-web-01", "prod-web-02", "prod-db-01"]
+  },
+  {
+    "id": "ssh-002",
+    "owner": "Bob Smith",
+    "fingerprint": "SHA256:PLMUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8nThbg",
+    "lastUsed": "2024-12-15T09:15:00Z",
+    "trustLevel": "medium",
+    "keyType": "rsa-4096",
+    "servers": ["staging-web-01", "staging-db-01"]
+  },
+  {
+    "id": "ssh-003",
+    "owner": "Carol Williams",
+    "fingerprint": "SHA256:aRLviKw6E5SY8nThbg6kXUpJWGl7E1IGOCspRomTxdC",
+    "lastUsed": "2024-12-10T16:45:00Z",
+    "trustLevel": "high",
+    "keyType": "ed25519",
+    "servers": ["prod-web-01", "prod-api-01", "prod-api-02", "prod-cache-01"]
+  },
+  {
+    "id": "ssh-004",
+    "owner": "David Brown",
+    "fingerprint": "SHA256:xdCARLviKw6E5SY8nThbg6kXUpJWGl7E1IGOCspRomT",
+    "lastUsed": "2024-11-28T11:20:00Z",
+    "trustLevel": "low",
+    "keyType": "rsa-2048",
+    "servers": ["dev-server-01"]
+  },
+  {
+    "id": "ssh-005",
+    "owner": "Eva Martinez",
+    "fingerprint": "SHA256:kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8nThbg6",
+    "lastUsed": "2024-12-16T08:00:00Z",
+    "trustLevel": "high",
+    "keyType": "ed25519",
+    "servers": ["prod-web-01", "prod-web-02", "prod-db-01", "prod-db-02", "prod-cache-01"]
+  },
+  {
+    "id": "ssh-006",
+    "owner": "Frank Lee",
+    "fingerprint": "SHA256:7E1IGOCspRomTxdCARLviKw6E5SY8nThbg6kXUpJWGl",
+    "lastUsed": "2024-12-14T13:30:00Z",
+    "trustLevel": "medium",
+    "keyType": "rsa-4096",
+    "servers": ["staging-web-01", "staging-api-01"]
+  }
+]
